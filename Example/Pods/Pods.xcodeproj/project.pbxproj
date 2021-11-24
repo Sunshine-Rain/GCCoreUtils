@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14F70D71274CD8F900E20BE8 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F70D70274CD8F900E20BE8 /* DateUtil.swift */; };
-		14F70D73274CDEEE00E20BE8 /* DeviceInfoUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F70D72274CDEEE00E20BE8 /* DeviceInfoUtil.swift */; };
-		14F70D75274CE3F000E20BE8 /* HumanizeTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F70D74274CE3F000E20BE8 /* HumanizeTimeUtil.swift */; };
-		14F70D77274CE40D00E20BE8 /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F70D76274CE40D00E20BE8 /* Timestamp.swift */; };
+		14CC8D32274E13FB00935D73 /* DeviceInfoUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC8D2D274E13FA00935D73 /* DeviceInfoUtil.swift */; };
+		14CC8D33274E13FB00935D73 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC8D2E274E13FA00935D73 /* DateUtil.swift */; };
+		14CC8D34274E13FB00935D73 /* HumanizeTimeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC8D2F274E13FA00935D73 /* HumanizeTimeUtil.swift */; };
+		14CC8D35274E13FB00935D73 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 14CC8D30274E13FA00935D73 /* .gitkeep */; };
+		14CC8D36274E13FB00935D73 /* Timestamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC8D31274E13FA00935D73 /* Timestamp.swift */; };
 		20084742A724E15EB89382312C36A26E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		588FF0128364A11EC2AA4DD81D141088 /* Pods-GCCoreUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B716E8DA5CAE7F4F5E2F19A17AE37F0C /* Pods-GCCoreUtils_Example-dummy.m */; };
 		7F305D49CFE5C88BE818C7CE32CA579B /* Pods-GCCoreUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E33DDAC2DE691E9C20497B1F568CB8 /* Pods-GCCoreUtils_Tests-dummy.m */; };
@@ -43,10 +44,11 @@
 		085DC993805AC59385E1508E7BD881EE /* Pods-GCCoreUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GCCoreUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0F4DAFDDC3DCBFE4D84A31880D76A4A7 /* Pods-GCCoreUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCCoreUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0FBBF830DA3BA7FC56339AB30172B391 /* Pods-GCCoreUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GCCoreUtils_Example.modulemap"; sourceTree = "<group>"; };
-		14F70D70274CD8F900E20BE8 /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
-		14F70D72274CDEEE00E20BE8 /* DeviceInfoUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoUtil.swift; sourceTree = "<group>"; };
-		14F70D74274CE3F000E20BE8 /* HumanizeTimeUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanizeTimeUtil.swift; sourceTree = "<group>"; };
-		14F70D76274CE40D00E20BE8 /* Timestamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
+		14CC8D2D274E13FA00935D73 /* DeviceInfoUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoUtil.swift; sourceTree = "<group>"; };
+		14CC8D2E274E13FA00935D73 /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		14CC8D2F274E13FA00935D73 /* HumanizeTimeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanizeTimeUtil.swift; sourceTree = "<group>"; };
+		14CC8D30274E13FA00935D73 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		14CC8D31274E13FA00935D73 /* Timestamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timestamp.swift; sourceTree = "<group>"; };
 		23BFF00A42AA1D2D98C4A9E0B21D44BB /* Pods-GCCoreUtils_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GCCoreUtils_Example"; path = Pods_GCCoreUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28931595EA35537C052F80BB08792994 /* GCCoreUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCCoreUtils-umbrella.h"; sourceTree = "<group>"; };
 		2D995A8464B9CE3714F331F4DE93A4D0 /* Pods-GCCoreUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GCCoreUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,15 +118,17 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		14F70D6F274CD8DD00E20BE8 /* Classes */ = {
+		14CC8D2C274E13FA00935D73 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				14F70D76274CE40D00E20BE8 /* Timestamp.swift */,
-				14F70D70274CD8F900E20BE8 /* DateUtil.swift */,
-				14F70D72274CDEEE00E20BE8 /* DeviceInfoUtil.swift */,
-				14F70D74274CE3F000E20BE8 /* HumanizeTimeUtil.swift */,
+				14CC8D2D274E13FA00935D73 /* DeviceInfoUtil.swift */,
+				14CC8D2E274E13FA00935D73 /* DateUtil.swift */,
+				14CC8D2F274E13FA00935D73 /* HumanizeTimeUtil.swift */,
+				14CC8D31274E13FA00935D73 /* Timestamp.swift */,
+				14CC8D30274E13FA00935D73 /* .gitkeep */,
 			);
-			path = Classes;
+			name = Classes;
+			path = GCCoreUtils/Classes;
 			sourceTree = "<group>";
 		};
 		23A59FB11C82386EB7C41C4B71864780 /* Pods-GCCoreUtils_Tests */ = {
@@ -146,7 +150,7 @@
 		26994B4A37347DEC607FD55EB6390DB4 /* GCCoreUtils */ = {
 			isa = PBXGroup;
 			children = (
-				14F70D6F274CD8DD00E20BE8 /* Classes */,
+				14CC8D2C274E13FA00935D73 /* Classes */,
 				10B7E38F09A81E6D23C34409865C5A94 /* Pod */,
 				CC822F06D605253348DB4D5C321D4357 /* Support Files */,
 			);
@@ -372,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CC8D35274E13FB00935D73 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,11 +410,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CC8D33274E13FB00935D73 /* DateUtil.swift in Sources */,
+				14CC8D36274E13FB00935D73 /* Timestamp.swift in Sources */,
 				F604907D293D65B1EA8974B3C4B5B7DB /* GCCoreUtils-dummy.m in Sources */,
-				14F70D73274CDEEE00E20BE8 /* DeviceInfoUtil.swift in Sources */,
-				14F70D71274CD8F900E20BE8 /* DateUtil.swift in Sources */,
-				14F70D77274CE40D00E20BE8 /* Timestamp.swift in Sources */,
-				14F70D75274CE3F000E20BE8 /* HumanizeTimeUtil.swift in Sources */,
+				14CC8D32274E13FB00935D73 /* DeviceInfoUtil.swift in Sources */,
+				14CC8D34274E13FB00935D73 /* HumanizeTimeUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
