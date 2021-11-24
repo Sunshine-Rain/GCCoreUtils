@@ -20,9 +20,17 @@ it, simply add the following line to your Podfile:
 pod 'GCCoreUtils'
 ```
 
+## Features
+
+This project contains the basic utils for iOS developing. Currently include the following utils.
+
+* **DateUtils** is used for getting formatted string or date.
+* **DeviceInfoUtil** is used for getting iOS device model name.
+* **HumanizeTimeUtil** is used for getting readable time, such as "3 mins ago"、"just now"。
+
 ## Author
 
-1137576021@qq.com, 1137576021@qq.com
+1137576021@qq.com
 
 ## License
 
