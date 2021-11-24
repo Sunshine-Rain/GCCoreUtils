@@ -1,0 +1,6 @@
+framework module GCCoreUtils {
+  umbrella header "GCCoreUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

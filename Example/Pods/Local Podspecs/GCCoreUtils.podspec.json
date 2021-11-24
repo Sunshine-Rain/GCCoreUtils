@@ -1,0 +1,22 @@
+{
+  "name": "GCCoreUtils",
+  "version": "0.1.0",
+  "summary": "A short description of GCCoreUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1137576021@qq.com/GCCoreUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1137576021@qq.com": "1137576021@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/1137576021@qq.com/GCCoreUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GCCoreUtils/Classes/**/*"
+}

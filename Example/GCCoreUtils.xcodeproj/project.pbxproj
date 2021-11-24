@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		089ADD529638F086E7F5CEE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		08EE61FB6054EAE8F162460F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		089ADD529638F086E7F5CEE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		08EE61FB6054EAE8F162460F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3D1DAA6163B048B48217B1E3 /* Pods-GCCoreUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCCoreUtils_Tests.release.xcconfig"; path = "Target Support Files/Pods-GCCoreUtils_Tests/Pods-GCCoreUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		49904FC577F64012D1193430 /* Pods-GCCoreUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCCoreUtils_Example.release.xcconfig"; path = "Target Support Files/Pods-GCCoreUtils_Example/Pods-GCCoreUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GCCoreUtils_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCCoreUtils_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		C34E35E2AC9ADEEEE6DC8B48 /* Pods-GCCoreUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCCoreUtils_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GCCoreUtils_Tests/Pods-GCCoreUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C56AA056506A3DBE0394F211 /* Pods_GCCoreUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCCoreUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFF65B72C173BDBA9EA4A68 /* Pods-GCCoreUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCCoreUtils_Example.debug.xcconfig"; path = "Target Support Files/Pods-GCCoreUtils_Example/Pods-GCCoreUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EF0D496E53739828201E9EC4 /* GCCoreUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GCCoreUtils.podspec; path = ../GCCoreUtils.podspec; sourceTree = "<group>"; };
+		EF0D496E53739828201E9EC4 /* GCCoreUtils.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GCCoreUtils.podspec; path = ../GCCoreUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				C34E35E2AC9ADEEEE6DC8B48 /* Pods-GCCoreUtils_Tests.debug.xcconfig */,
 				3D1DAA6163B048B48217B1E3 /* Pods-GCCoreUtils_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

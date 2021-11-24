@@ -1,0 +1,16 @@
+PODS:
+  - GCCoreUtils (0.1.0)
+
+DEPENDENCIES:
+  - GCCoreUtils (from `../`)
+
+EXTERNAL SOURCES:
+  GCCoreUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GCCoreUtils: e220d307ab7e59d877e317a197987b8aba69b7ee
+
+PODFILE CHECKSUM: 4716403aa95cca991e2e64062c2fc9c36d5b436f
+
+COCOAPODS: 1.11.2
